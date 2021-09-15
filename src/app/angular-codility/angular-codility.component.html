@@ -1,0 +1,10 @@
+<p>angular-codility works!</p>
+<hr>
+<div>
+    <button (click)="addLike()" [ngClass]="likebutton1 ? 'like-button' : 'liked' ">
+        <span class="likes-counter">Like | {{likes}}</span>
+    </button>
+    <button (click)="addDisLike()" [ngClass]="dislikebutton1 ? 'dislike-button' : 'disliked'">
+        <span class="dislikes-counter">Dislike | {{dislikes}}</span>
+    </button>
+</div>
